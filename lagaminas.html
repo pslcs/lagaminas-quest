@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Lagaminas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="lagaminas.css" /> 
+</head>
+<body>
+    <div class="ekranasRemas">
+        <div class="ekranas">
+            <div class="pagrPaveiksliukas"><img src="./assets/q.jpg"></div>
+            <div class="pirmasApvalus"><img src="./assets/1.jpg" id="pirmas"></div>
+            <div class="antrasApvalus"><img src="./assets/2.jpg" id="antras"></div>
+        </div>
+    </div>
+    <div class="klaviaturaRemas">
+        <div class="klaviatura">
+        </div>
+    </div>
+    <div class="fakeKlaviatura">
+        <button class="bigButton button" onclick="smallerButton(this)"></button>
+        <div class="lempute1"><img src="./assets/bulboff.png" id="bulboff"></div>
+        <div class="lentele">
+            <button class="langelis" id="vienas" onclick="toggle(this)">4</button>
+            <button class="langelis" id="du" onclick="toggle(this)">5</button>
+            <button class="langelis" id="trys" onclick="toggle(this)">6</button>
+            <button class="langelis" id="keturi" onclick="toggle(this)">3</button>
+            <button class="langelis antri" id="penki" onclick="toggle(this)">4</button>
+            <button class="rodykle antri" id="sesi" onclick="atidaryk(this)">GO</button>
+            <button class="langelis antri" id="septyni" onclick="toggle(this)">1</button>
+            <button class="langelis antri" id="astuoni" onclick="toggle(this)">8</button>
+            <button class="langelis treti" id="devyni" onclick="toggle(this)">9</button>
+            <button class="langelis treti" id="desimt" onclick="toggle(this)">4</button>
+            <button class="langelis treti" id="vienuolika" onclick="toggle(this)">2</button>
+            <button class="langelis treti" id="dvylika" onclick="toggle(this)">3</button>
+            <button class="langelis ketvirti" id="trylika" onclick="toggle(this)">8</button>
+            <button class="langelis ketvirti" id="keturiolika" onclick="toggle(this)">4</button>
+            <button class="langelis ketvirti" id="penkiolika" onclick="toggle(this)">6</button>
+            <button class="langelis ketvirti" id="sesiolika" onclick="toggle(this)">7</button>
+            
+        </div>
+        <div class="lemputes" id="lempa1"><img src="./assets/bulboff.png" class="bulboff" id="bulboff0"></div>
+        <div class="lemputes" id="lempa2"><img src="./assets/bulboff.png" class="bulboff" id="bulboff1"></div>
+        <div class="lemputes" id="lempa3"><img src="./assets/bulboff.png" class="bulboff" id="bulboff2"></div>
+        <div class="lemputes" id="lempa4"><img src="./assets/bulboff.png" class="bulboff" id="bulboff3"></div>
+        <button class="lemputesMygtukas button" onclick="eilute(this)" id="LM1"></button>
+        <button class="lemputesMygtukas button" onclick="eilute(this)" id="LM2"></button>
+        <button class="lemputesMygtukas button" onclick="eilute(this)" id="LM3"></button>
+        <button class="lemputesMygtukas button" onclick="eilute(this)" id="LM4"></button>
+
+        <button class="keyboard button" id="a11" onclick="eilute(this)"></button>
+        <button class="keyboard button" id="a12" onclick="eilute(this)"></button>
+        <button class="keyboard button" id="a13" onclick="eilute(this)"></button>
+        <button class="keyboard button" id="a21" onclick="eilute(this)"></button>
+        <button class="keyboard button" id="a22" onclick="eilute(this)"></button>
+        <button class="keyboard button" id="a23" onclick="eilute(this)"></button>
+        <button class="keyboard button" id="a31" onclick="eilute(this)"></button>
+        <button class="keyboard button" id="a32" onclick="eilute(this)"></button>
+        <button class="keyboard button" id="a33" onclick="eilute(this)"></button>
+
+    </div>
+
+
+
+    <script src="lagaminas.js"></script>
+</body>
+</html>

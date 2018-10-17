@@ -1,0 +1,210 @@
+.klaviaturaRemas {
+	background-color: #808080;
+    transform: perspective(200px) rotateX(5deg);
+	height: 300px;
+    width: 746px;
+    top: 90px;
+    position: relative;
+    left: 57px;
+}
+.klaviatura{
+    background-color: #717171;
+	height: 280px;
+    width: 726px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox='0 0 12 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 .99C4 .445 4.444 0 5 0c.552 0 1 .45 1 .99v4.02C6 5.555 5.556 6 5 6c-.552 0-1-.45-1-.99V.99zm6 8c0-.546.444-.99 1-.99.552 0 1 .45 1 .99v4.02c0 .546-.444.99-1 .99-.552 0-1-.45-1-.99V8.99z' fill='%23585858' fill-opacity='0.51' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ekranasRemas {
+    width: 700px;
+    height: 350px;
+    background-color: #808080;
+    position: relative;
+    top: 100px;
+    left: 80px;
+}
+
+.ekranas {
+    width: 680px;
+    height: 330px;
+    background-color: #717171;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox='0 0 12 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 .99C4 .445 4.444 0 5 0c.552 0 1 .45 1 .99v4.02C6 5.555 5.556 6 5 6c-.552 0-1-.45-1-.99V.99zm6 8c0-.546.444-.99 1-.99.552 0 1 .45 1 .99v4.02c0 .546-.444.99-1 .99-.552 0-1-.45-1-.99V8.99z' fill='%23585858' fill-opacity='0.51' fill-rule='evenodd'/%3E%3C/svg%3E");
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.pagrPaveiksliukas {
+    border: 5px solid black;
+    position: relative;
+    top: 90px;
+    left: 100px;
+    height: 150px;
+    width: 150px;
+    transition: all 0.5s;
+}
+
+#pirmas, #antras {
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 100px;
+    width: 100px;
+}
+
+.pirmasApvalus {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 400px;
+    top: 20px;
+    transition: all 0.5s;
+}
+.antrasApvalus {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 400px;
+    bottom: 220px;
+    transition: all 0.5s;
+}
+
+#bulboff, #bulbon {
+    width: 75px;
+    height: auto;
+    top: 110px;
+    position: relative;
+    left: 160px;
+}
+
+.button {
+    border-radius: 50%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%23881b1b' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
+    position: relative;
+}
+
+.bigButton {
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    top: 200px;
+    left: 100px;
+    background-color: #ff3535;
+    box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
+}
+
+.fakeKlaviatura {
+    position: relative;
+    bottom: 190px;
+    height: 280px;
+    width: 700px;
+    left: 80px;
+}
+
+.lentele {
+    width: 148px;
+    height: 148px;
+    position: relative;
+    bottom: 160px;
+    left: 90px;
+}
+
+.langelis {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    position: relative;
+    border: 1px solid grey;
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: center;
+    margin: -1px -3px -1px -2px;
+    padding: 0px;
+}
+.rodykle {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    position: relative;
+    border: 1px solid grey;
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: center;
+    margin: -1px -3px -1px -2px;
+    padding: 0px;
+}
+.aktyvus {
+    background-color: rgb(155, 155, 155);
+}
+
+.lemputesMygtukas {
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    background-color: #ff3535;
+    bottom: 550px;
+    left: 300px;
+}
+#LM2 {
+    left: 370px;
+}
+#LM3 {
+    left: 440px;
+}
+#LM4 {
+    left: 510px;
+}
+
+.bulboff, .bulbon {
+    width: 50px;
+    height: auto;
+    position: relative;
+}
+
+#bulboff0, #bulbon0 {
+    bottom: 310px;
+    left: 291px;
+}
+#bulboff1, #bulbon1 {
+    bottom: 390px;
+    left: 395px;
+}
+#bulboff2, #bulbon2 {
+    bottom: 470px;
+    left: 499px;
+}
+#bulboff3, #bulbon3 {
+    bottom: 550px;
+    left: 603px;
+}
+
+.keyboard {
+    height: 30px;
+    width: 30px;
+    border: 0px;
+    background-color: #ff3535;
+    position: absolute;
+}
+
+#a11, #a21, #a31 {    
+    left: 470px;
+}
+#a12, #a22, #a32 {
+    left: 510px;
+}
+#a13, #a23, #a33 {
+    left: 430px;
+}
+#a11, #a12, #a13 {
+    bottom: 100px;
+}
+#a21, #a22, #a23 {
+    bottom: 60px;
+}
+#a31, #a32, #a33 {
+    bottom: 20px;
+}
+.ijungtas {
+    background-color: #843d3d
+}
